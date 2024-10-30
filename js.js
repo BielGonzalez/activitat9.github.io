@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // REEMPLAZA 'TU_SERVICE_ID', 'TU_TEMPLATE_ID' con tus IDs reales de EmailJS
         emailjs.send("service_zh011sg", "template_5xjob25", {
             to_email: email,
-            reply_to: "tu@email.com",
+            reply_to: "biel.gonzalez@iaballester.cat",
         })
         .then(function() {
             showMessage('¡Gracias por suscribirte! Por favor, verifica tu correo.', 'success');
